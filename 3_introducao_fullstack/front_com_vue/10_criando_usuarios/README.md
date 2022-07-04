@@ -128,7 +128,7 @@ Logo que o dado é mandado, ele é mostrado na tela, mas precisamos limpar o for
 
 Para deixar um projeto mais completo, podemos colocar toda a tentativa no **try/catch**, assim caso dê erro, é mostrado em tela. Não podemos garantir que o backend esteja funcionando ou algo do tipo, ai aparece um console.warn.
 
-```javascr
+```javascript
 async createUser() {
       try {
         const { data } = await axios.post('/users', this.form)
