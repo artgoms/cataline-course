@@ -1,10 +1,14 @@
 # Life Cycle HOOKS
 
-Ganchos de ciclo de vida de um componente Vue.
+**<mark>Ganchos de ciclo de vida de um componente Vue.</mark>**
 
 Quando criamos um arquivo Vue, ele já é um componente. Sendo um componente, ele tem ciclos de vida.
 
+## Hooks ou Ganchos
 
+São momentos do nosso ciclo, que podemos realizar alguma ação.
+
+<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-04-21-51-13-image.png" title="" alt="" width="406">
 
 ## beforeCreate
 
