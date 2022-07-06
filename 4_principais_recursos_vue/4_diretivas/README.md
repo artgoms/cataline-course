@@ -4,8 +4,6 @@ São basicamente atributos HTML, sendo possivel atrelar essa diretiva a qualquer
 
 O papel das diretivas é para facilitar trabalho.
 
-
-
 Toda diretiva começa com **v-**, logo em seguida é colocada o nome da diretiva.
 
 Ex:
@@ -39,8 +37,6 @@ No exemplo abaixo a diretiva vai ficar observando o **click** e segurando o **ct
 fazer login
 </button>
 ```
-
-
 
 # v - bind
 
@@ -160,7 +156,6 @@ export default defineComponent({
   }
 })
 </script>
-
 ```
 
 Podemos também combinar modificadores:
@@ -178,8 +173,6 @@ Essa diretiva também possui um atalho, que é o arroba ( @ ).
   <a href="#interno" @click.prevent.once="doSomething"> link interno </a>
 </template>
 ```
-
-
 
 # v - once
 
@@ -208,8 +201,6 @@ export default defineComponent({
 
 Com isso, o estoque inicial é renderizado e não sai de 1, ficando assim algo dinâmico.
 
-
-
 # v - if
 
 Essa diretiva renderiza um elemento ou mais com condições.
@@ -226,8 +217,6 @@ Ela trabalha com **v-else-if** e **v-else**.
 </template>
 ```
 
-
-
 # v - show
 
 Essa diretiva altera a visibilidade do elemento com base em uma afirmação ou negativa. Ela é usada mais quando se tem uma condição que muda muitas vezes.
@@ -239,8 +228,6 @@ Essa diretiva altera a visibilidade do elemento com base em uma afirmação ou n
   </div>
 </template>te>
 ```
-
-
 
 # v - for
 
@@ -261,8 +248,6 @@ Ele também é acompanhado de uma chave ( key ), um atributo especial, um identi
 Para usar o key precisamos usar o **v-bind**:  v-bind:key="chave"
 
 Abreviado:  **:key="chave"**
-
-
 
 # v - model
 
@@ -303,38 +288,12 @@ Essa diretiva faz um databind **bidirecional**. Utilizado demais em formulários
 
 A diretiva aceita alguns modificadores: lazy, number e trim.
 
-
-
 **lazy** faz o bind só acontecer depois que sair do campo
 
 **number** faz o dado ser salvo como número.
 
 **trim** elimina espaçamentos que tem no inicio e no final de uma string.
 
-
-
 # Diretivas Personalizadas
 
 Diretivas personalizadas pelo dev :D
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
