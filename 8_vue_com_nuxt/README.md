@@ -30,7 +30,7 @@ Problemas que o Nuxt resolve:
    
    O carregamento de aplicações Vue pode ser lento, mas com o Nuxt temos duas alternativas de implementações, estaticamente (HTML, CSS e Javascript) ou SERVER (SSR, onde o HTML é renderizado no servidor, fazendo a página sendo carregada mais rapidamente).
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-14-20-51-41-image.png" alt="" width="382" data-align="center">
+<img title="" src="file:///D:/1 Projetos/Cataline/26b19c858398d676f4d0540d15544e6dccbc2b51.png" alt="" width="382" data-align="center">
 
 ---
 
@@ -94,8 +94,6 @@ No Nuxt existe três tipos de view:
 
 3. Componentes
 
-
-
 ## Layout
 
 Layouts foi implementado para ser usado como modelo, somente mudando dados. Evita no caso a repetição de estruturas sem necessidade. Podemos criar a pasta de /layouts e colocar um website.vue com estrutura
@@ -118,8 +116,6 @@ export default Vue.extend({
     layout: 'website'
 })
 </script>
-
-
 ```
 
 Estrutura index.vue:
@@ -135,7 +131,6 @@ Estrutura index.vue:
         <Nuxt />
     </div>
 </template>
-
 ```
 
 É interessante deixar um layout default.vue como um layout em branco, assim sendo um padrão caso não encontre o layout certo.
@@ -164,8 +159,6 @@ Nome: error.vue
 </template>
 ```
 
-
-
 ## Plugins
 
 Funções ou lógicas que seram executadas quando a aplicação é criada.
@@ -173,7 +166,3 @@ Funções ou lógicas que seram executadas quando a aplicação é criada.
 ## Módulos
 
 São bibliotecas ou pacotes que fazem uma integração com o Nuxt.
-
-
-
-
