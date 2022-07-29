@@ -181,14 +181,8 @@ Para ser passado o type Number, precisamos colocar na prop da tag o v-bind, assi
 
 # Props dinâmica class -> depois exemplifico :D
 
-
-
 # Slots tambéeeem
 
-
-
 # Events também :D
-
-
 
 Global segue o mesmo caminho, exemplificar dps

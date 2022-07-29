@@ -4,10 +4,6 @@ Classes baseadas no javascript/estados dentro do javascript.
 
 A classe só será adicionada a tag a depender da condição no javascript.
 
-
-
-
-
 ```html
 <template>
   <h1 class="static">Cataline</h1>
@@ -25,7 +21,6 @@ export default defineComponent({
   }
 })
 </script>
-
 ```
 
 colocando as condições
@@ -48,8 +43,6 @@ export default defineComponent({
 })
 </script>
 ```
-
-
 
 # Sintaxe de Array
 
@@ -75,5 +68,4 @@ export default defineComponent({
   }
 })
 </script>
-
 ```

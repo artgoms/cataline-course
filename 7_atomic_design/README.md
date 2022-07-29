@@ -54,7 +54,7 @@ Exemplo:
 
 Input + Botão = Molécula de busca
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-26-36-image.png" title="" alt="" width="338">
+<img src="../assets/2022-07-12-22-26-36-image.png" title="" alt="" width="338">
 
 ## Organismos
 
@@ -64,17 +64,17 @@ Exemplo:
 
 A molécula de busca + Molécula de Navegação + Átomo de Logotipo = Organismo Header
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-31-06-image.png" title="" alt="" width="531">
+<img src="../assets/2022-07-12-22-31-06-image.png" title="" alt="" width="531">
 
 E o propósito paralelo seria
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-31-44-image.png" title="" alt="" width="439">
+<img src="../assets/2022-07-12-22-31-44-image.png" title="" alt="" width="439">
 
 ## Templates
 
 Consistem em **grupos de organismos** e outros componentes combinados para **formar páginas**.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-39-51-image.png" alt="" width="378" data-align="center">
+<img title="" src="../assets/2022-07-12-22-39-51-image.png" alt="" width="378" data-align="center">
 
 ## Páginas
 
@@ -88,7 +88,7 @@ Exemplo:
 
 Paleta de cores, fontes, animações e aspectos mais invisíveis de uma interface: grid layout.
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-44-25-image.png" title="" alt="" width="399">
+<img src="../assets/2022-07-12-22-44-25-image.png" title="" alt="" width="399">
 
 ## Quarks
 
@@ -102,11 +102,7 @@ Setas de um slider, itens que enviam feedback de validação de formulários, et
 
 # VUE SCHEMA
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-12-22-56-48-image.png" title="" alt="" width="593">
-
-
-
-
+<img src="../assets/2022-07-12-22-56-48-image.png" title="" alt="" width="593">
 
 ---
 
@@ -143,8 +139,6 @@ Configuração do .prettierrc
 }
 ```
 
-
-
 ---
 
 ### BOAS PRÁTICAS VSCODE
@@ -160,8 +154,6 @@ Para esse projeto:
   "vetur.experimental.templateInterpolationService": true
 }
 ```
-
-
 
 #### Criando uma estrutura .vue
 

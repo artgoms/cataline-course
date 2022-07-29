@@ -12,29 +12,29 @@ Temos dois eixos, x e y. Horizontal Linha, Vertical Coluna.
 
 Aqui temos 1 linha, 3 colunas.
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-07-23-50-50-image.png" title="" alt="" width="293"> 
+<img src="../assets/2022-07-07-23-50-50-image.png" title="" alt="" width="293"> 
 
 ---
 
 Aqui temos 3 linhas e uma coluna.
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-07-23-51-49-image.png" title="" alt="" width="104">
+<img src="../assets/2022-07-07-23-51-49-image.png" title="" alt="" width="104">
 
 ---
 
 Aqui temos 2 linhas e 3 colunas.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-07-23-52-35-image.png" alt="" width="292" data-align="inline">
+<img title="" src="../assets/2022-07-07-23-52-35-image.png" alt="" width="292" data-align="inline">
 
 ---
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-07-23-53-29-image.png" title="" alt="" width="295">
+<img src="../assets/2022-07-07-23-53-29-image.png" title="" alt="" width="295">
 
 ---
 
 Aqui temos 3 linhas e 4 colunas.
 
-<img src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-07-23-54-28-image.png" title="" alt="" width="294">
+<img src="../assets/2022-07-07-23-54-28-image.png" title="" alt="" width="294">
 
 <u><mark>Definição de **colunas** e **linhas** -> sempre pela MAIOR quantidade.</mark></u>
 
@@ -82,8 +82,6 @@ Hoje essa propriedade foi atualizada para:
 
 **gap: 1rem**
 
-
-
 # Fluxo automático
 
 O fluxo de criação é por padrão em linha (**row**), elemento em cima de elemento. Para alterar esse fluxo podemos usar o:
@@ -101,8 +99,6 @@ Essa propriedade faz com que seja empilhado da maneira que definiu, se definiu c
         grid-auto-flow: row;
       }
 ```
-
-
 
 # Repetição Automática
 
@@ -128,13 +124,11 @@ Utilizamos então a função **repeat(número_de_repetições, tamanho)**
       }
 ```
 
-
-
 # Preenchimento Implícito
 
 Essa propriedade facilita quando não temos certeza de quantas linhas ou colunas temos, como por exemplo em um blog/posts.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-21-19-03-image.png" alt="" width="317" data-align="center">
+<img title="" src="../assets/2022-07-11-21-19-03-image.png" alt="" width="317" data-align="center">
 
 **grid-auto-columns**: 
 
@@ -143,8 +137,6 @@ Define o tamanho das colunas do grid implícito (gerado automaticamente, quando 
 **grid-auto-rows**: 
 
 Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma linha que não foi definida).
-
-
 
 # Tamanho Dinâmico
 
@@ -164,8 +156,6 @@ A função usado é **minmax(minimo_tamanho, máximo_tamanho)**
 <mark>Isso faz com que a coluna tenha no máximo 900px e quando a tela diminuir, o mínimo será 300px.</mark>
 
 Essa função pode ser usada no grid-auto-columns, como também no rows.
-
-
 
 # Ajuste Automático
 
@@ -193,7 +183,7 @@ Com o **minmax** podemos definir um máximo e um mínimo, mas acaba ficando um t
 }
 ```
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-01-30-image.png" alt="" width="389" data-align="center">
+<img title="" src="../assets/2022-07-11-22-01-30-image.png" alt="" width="389" data-align="center">
 
 Para o exemplo, temos vários items que são empilhados um do lado do outro, e queremos que fique abaixo a depender do tamanho da tela.
 
@@ -210,7 +200,7 @@ Para o ajuste automático, usaremos o repeat com a seguinte configuração.
 
 O **auto-fit** fará com que coloque o máximo de colunas na mesma linha, fazendo o resto não ser visível a depender do tamanho da tela. O que não couber mais, irá para próxima linha.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-00-34-image.png" alt="" width="357" data-align="center">
+<img title="" src="../assets/2022-07-11-22-00-34-image.png" alt="" width="357" data-align="center">
 
 Para aparecer na próxima linha, temos que definir que as linhas são automáticas com um tamanho máximo de 200px:
 
@@ -223,13 +213,13 @@ Para aparecer na próxima linha, temos que definir que as linhas são automátic
       }
 ```
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-00-58-image.png" alt="" width="307" data-align="center">
+<img title="" src="../assets/2022-07-11-22-00-58-image.png" alt="" width="307" data-align="center">
 
 A cada vez que diminiur o tamanho da tela, irá ter uma menor quantidade de colunas, e quanto maior a tela, mais quantidade de colunas.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-04-17-image.png" alt="" width="164" data-align="center">
+<img title="" src="../assets/2022-07-11-22-04-17-image.png" alt="" width="164" data-align="center">
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-03-01-image.png" alt="" width="407" data-align="center">
+<img title="" src="../assets/2022-07-11-22-03-01-image.png" alt="" width="407" data-align="center">
 
 ---
 
@@ -237,11 +227,9 @@ A cada vez que diminiur o tamanho da tela, irá ter uma menor quantidade de colu
 
 Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar áreas vazias. (from Origamid)
 
-
-
 É usado quando queremos deixar lugares definidos no layout.
 
-<img title="" src="file:///C:/Users/artur/AppData/Roaming/marktext/images/2022-07-11-22-16-22-image.png" alt="" width="263" data-align="center">
+<img title="" src="../assets/2022-07-11-22-16-22-image.png" alt="" width="263" data-align="center">
 
 ```css
       .container {
@@ -265,17 +253,11 @@ Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar á
       }
 ```
 
-
-
 ---- VOLTAR AQUI DEPOIS.
-
-
 
 # Atalhos gerais
 
 Seria os atalhos para ao invés de utilizar grid-template-areas, grid-template-columns e rows, utilizar somente grid.
-
-
 
 ```css
       .container {
@@ -288,8 +270,6 @@ Seria os atalhos para ao invés de utilizar grid-template-areas, grid-template-c
 ```
 
 Isso faz com que fique menos verboso.
-
-
 
 # Alinhamentos
 
@@ -317,8 +297,6 @@ Alinha os itens do grid em relação ao eixo y (vertical).
 - **align-content: *space-evenly***// Cria um espaço igual entre as colunas (no início e final também).
 - **align-content: *center*** // Centraliza o conteúdo.
 
-
-
 ### justify-items
 
 Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Justifica em relação a célula.
@@ -328,8 +306,6 @@ Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Jus
 - **justify-items: *center*** // Centraliza o conteúdo.
 - **justify-items: *stretch*** // Estica os itens.
 
-
-
 ### align-items
 
 Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha em relação a célula.
@@ -338,7 +314,3 @@ Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha e
 - **align-items: *end*** // Alinha os itens ao final.
 - **align-items: *center*** // Centraliza o conteúdo.
 - **align-items: *stretch*** // Estica os itens.
-
-
-
-
